@@ -1,14 +1,14 @@
 {
-  "name": "v13uptimev2",
+  "name": "v13uptimev3",
   "version": "1.0.0",
-  "description": "Gweep Creative v13 uptime Botu",
+  "description": "muhammet ali v13 uptime Botu",
   "main": "app.js",
   "scripts": {
     "start":"node app.js"
   },
-  "author": "Gweep Creative",
+  "author": "Muhammet ali",
   "license": "ISC",
-  "homepage": "https://github.com/GweepCreative/v13uptimev2",
+  "homepage": "https://github.com/muhammet /v13uptimev2",
   
 	"dependencies": {
 		"@discordjs/rest": "^0.3.0",

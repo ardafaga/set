@@ -12,7 +12,7 @@ const { mongodb } = require("./config.json");
 //////////////////////////////// MONGODB URL //////////////////////////
 db.connect(mongodb).then(() => {
     console.log("Mongoya Bağlanıldı");
-}).catch(console.log("Mongoose hata"));
+}).catch(console.log("Mongoose hatadır"));
 
 
 global.client = client;
@@ -31,7 +31,7 @@ fs.readdir("./komutlar/", (err, files) => {
             options: props.options,
             type: props.type,
         })
-        console.log(`👌 Slash Komut Yüklendi: ${props.name}`);
+        console.log(` Slash Komut Yüklendi: ${props.name}`);
     });
 });
 const links = require("./models/links");

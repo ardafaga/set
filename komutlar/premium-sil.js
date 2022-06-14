@@ -14,14 +14,14 @@ module.exports = {
     ],
     run: async (client, interaction) => {
         const { botsahip } = require("../config.json");
-        if (interaction.member.id !== botsahip) return interaction.reply({ content: 'Bu komut sadece bot sahipleri kullanabilir' });
+        if (interaction.member.id !== botsahip) return interaction.reply({ content: 'Bu komut sadece bot sahipi kullanabilir' });
         const üye = interaction.options.getMember('üye');
         const c = await premium.findOne({ user: üye.id })
         if (c) {
             await premium.deleteOne({ user: üye.id });
             return interaction.reply({ content: `${üye} isimli kullanıcının premium üyeliği iptal edildi` })
         } else {
-            return interaction.reply({ content: "Bu kullanıcı zaten Premium değil" })
+            return interaction.reply({ content: "Bu kullanıcı zaten Premium degil" })
         }
 
     }
