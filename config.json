@@ -1,5 +1,5 @@
 {
-    "token":"tokeninizi yazın",
-    "botsahip":"idnizi yazın",
-    "mongodb":""
+    "token":"OTU4NzM0MTE3MzU5NDY4NTU0.G11F7V.W6B8rTQlFrth1NL060zIYmztDKGAJLFKGiHUV4",
+    "botsahip":"843136836947410945",
+    "mongodb":"mongodb+srv://enessonmez:enessonmez12345@cluster0.d3sik.mongodb.net/uptimebot123?retryWrites=true&w=majority"
 }
